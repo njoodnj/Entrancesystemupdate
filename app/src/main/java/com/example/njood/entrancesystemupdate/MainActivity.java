@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
         password = (EditText) findViewById(R.id.passwordHP);
     }
 
-    public void main_register(View v){
+    public void register_register(View v){
         startActivity(new Intent(this,register.class));
     }
 
