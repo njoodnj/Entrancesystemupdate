@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.content_main);
+        setContentView(R.layout.main);
         id = (EditText) findViewById(R.id.NationalID);
         password = (EditText) findViewById(R.id.passwordHP);
     }

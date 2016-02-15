@@ -9,9 +9,9 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".homeprofile"
+    tools:context=".MainActivity"
     android:background="@drawable/hp"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/main">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -55,10 +55,11 @@
         android:layout_marginTop="10dp" />
 
     <Button
+        android:onClick="main_login"
         android:layout_width="50dp"
         android:layout_height="25dp"
         android:text="Login"
-        android:id="@+id/loginSubmit"
+        android:id="@+id/main_login"
         android:textColor="#ffffff"
         android:background="#999999"
         android:layout_below="@+id/passwordHP"
@@ -72,13 +73,14 @@
         android:text="Forget password?"
         android:id="@+id/forgetpasword"
         android:layout_marginTop="21dp"
-        android:layout_below="@+id/loginSubmit"
+        android:layout_below="@+id/main_login"
         android:layout_centerHorizontal="true" />
 
     <ImageButton
+        android:onClick="main_register"
         android:layout_width="170dp"
         android:layout_height="35dp"
-        android:id="@+id/newuser"
+        android:id="@+id/main_register"
         android:background="@drawable/nu"
         android:clickable="true"
         android:layout_marginTop="30dp"
@@ -92,7 +94,7 @@
         android:id="@+id/contactus"
         android:background="@drawable/cu"
         android:clickable="true"
-        android:layout_alignTop="@+id/newuser"
+        android:layout_alignTop="@+id/main_register"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
