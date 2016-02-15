@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.noura.testregister.register"
+    tools:context="com.example.njood.entrancesystemupdate.register"
     android:background="#fff398">
 
     <android.support.design.widget.AppBarLayout
